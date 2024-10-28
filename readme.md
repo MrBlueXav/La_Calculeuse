@@ -10,7 +10,8 @@ Each digit is shown on a wheel that can be scrolled with a finger to choose a nu
 That enables iterative calculations : +2 ... +2 ... +2 for instance.  
 It works only with positive integers and have four operations : addition, substraction, multiplication and euclidian division (with remainder).  
 The three types of error are managed : overflow, negative number, division by 0.  
-
+There's a Youtube demo here :  
+https://youtu.be/PU9Ylbjo0pk?si=GYXZqVtij_sRz8eB  
 
 -------------------------------------------------------
 
