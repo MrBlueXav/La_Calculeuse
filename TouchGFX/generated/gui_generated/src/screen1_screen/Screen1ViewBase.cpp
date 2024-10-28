@@ -98,6 +98,14 @@ Screen1ViewBase::Screen1ViewBase() :
     minus_buttonWithLabel.setAction(buttonCallback);
     add(minus_buttonWithLabel);
 
+    plus_buttonWithLabel.setXY(229, 219);
+    plus_buttonWithLabel.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUND_MICRO_FILL_ACTION_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUND_MICRO_FILL_ACTIVE_ID));
+    plus_buttonWithLabel.setLabelText(touchgfx::TypedText(T___SINGLEUSE_K9XY));
+    plus_buttonWithLabel.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    plus_buttonWithLabel.setLabelColorPressed(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    plus_buttonWithLabel.setAction(buttonCallback);
+    add(plus_buttonWithLabel);
+
     Xcontainer.setPosition(27, 13, 448, 80);
     boxWithBorder1.setPosition(0, 0, 441, 72);
     boxWithBorder1.setColor(touchgfx::Color::getColorFromRGB(200, 250, 187));
@@ -108,7 +116,7 @@ Screen1ViewBase::Screen1ViewBase() :
     RAZX_buttonWithLabel.setXY(12, 13);
     RAZX_buttonWithLabel.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUND_MICRO_OUTLINE_ACTION_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUND_MICRO_OUTLINE_PRESSED_ID));
     RAZX_buttonWithLabel.setLabelText(touchgfx::TypedText(T___SINGLEUSE_4JH1));
-    RAZX_buttonWithLabel.setLabelColor(touchgfx::Color::getColorFromRGB(34, 212, 46));
+    RAZX_buttonWithLabel.setLabelColor(touchgfx::Color::getColorFromRGB(18, 163, 28));
     RAZX_buttonWithLabel.setLabelColorPressed(touchgfx::Color::getColorFromRGB(250, 0, 0));
     RAZX_buttonWithLabel.setAction(buttonCallback);
     Xcontainer.add(RAZX_buttonWithLabel);
@@ -127,7 +135,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitX0_scrollWheel.animateToItem(9, 0);
     Xcontainer.add(digitX0_scrollWheel);
 
-    digitX1_scrollWheel.setPosition(315, -15, 63, 77);
+    digitX1_scrollWheel.setPosition(327, -15, 63, 77);
     digitX1_scrollWheel.setHorizontal(false);
     digitX1_scrollWheel.setCircular(true);
     digitX1_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -141,7 +149,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitX1_scrollWheel.animateToItem(9, 0);
     Xcontainer.add(digitX1_scrollWheel);
 
-    digitX2_scrollWheel.setPosition(252, -15, 63, 77);
+    digitX2_scrollWheel.setPosition(272, -15, 63, 77);
     digitX2_scrollWheel.setHorizontal(false);
     digitX2_scrollWheel.setCircular(true);
     digitX2_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -155,7 +163,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitX2_scrollWheel.animateToItem(9, 0);
     Xcontainer.add(digitX2_scrollWheel);
 
-    digitX3_scrollWheel.setPosition(189, -15, 63, 77);
+    digitX3_scrollWheel.setPosition(199, -15, 63, 77);
     digitX3_scrollWheel.setHorizontal(false);
     digitX3_scrollWheel.setCircular(true);
     digitX3_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -169,7 +177,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitX3_scrollWheel.animateToItem(9, 0);
     Xcontainer.add(digitX3_scrollWheel);
 
-    digitX4_scrollWheel.setPosition(126, -15, 63, 77);
+    digitX4_scrollWheel.setPosition(145, -15, 63, 77);
     digitX4_scrollWheel.setHorizontal(false);
     digitX4_scrollWheel.setCircular(true);
     digitX4_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -183,7 +191,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitX4_scrollWheel.animateToItem(9, 0);
     Xcontainer.add(digitX4_scrollWheel);
 
-    digitX5_scrollWheel.setPosition(63, -15, 63, 77);
+    digitX5_scrollWheel.setPosition(92, -15, 63, 77);
     digitX5_scrollWheel.setHorizontal(false);
     digitX5_scrollWheel.setCircular(true);
     digitX5_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -241,7 +249,7 @@ Screen1ViewBase::Screen1ViewBase() :
     RAZY_buttonWithLabel.setXY(12, 13);
     RAZY_buttonWithLabel.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUND_MICRO_OUTLINE_ACTION_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUND_MICRO_OUTLINE_PRESSED_ID));
     RAZY_buttonWithLabel.setLabelText(touchgfx::TypedText(T___SINGLEUSE_08F1));
-    RAZY_buttonWithLabel.setLabelColor(touchgfx::Color::getColorFromRGB(34, 212, 46));
+    RAZY_buttonWithLabel.setLabelColor(touchgfx::Color::getColorFromRGB(18, 163, 28));
     RAZY_buttonWithLabel.setLabelColorPressed(touchgfx::Color::getColorFromRGB(250, 0, 0));
     RAZY_buttonWithLabel.setAction(buttonCallback);
     Ycontainer.add(RAZY_buttonWithLabel);
@@ -260,7 +268,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitY0_scrollWheel.animateToItem(9, 0);
     Ycontainer.add(digitY0_scrollWheel);
 
-    digitY1_scrollWheel.setPosition(315, -15, 63, 77);
+    digitY1_scrollWheel.setPosition(327, -15, 63, 77);
     digitY1_scrollWheel.setHorizontal(false);
     digitY1_scrollWheel.setCircular(true);
     digitY1_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -274,7 +282,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitY1_scrollWheel.animateToItem(9, 0);
     Ycontainer.add(digitY1_scrollWheel);
 
-    digitY2_scrollWheel.setPosition(252, -15, 63, 77);
+    digitY2_scrollWheel.setPosition(272, -15, 63, 77);
     digitY2_scrollWheel.setHorizontal(false);
     digitY2_scrollWheel.setCircular(true);
     digitY2_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -288,7 +296,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitY2_scrollWheel.animateToItem(9, 0);
     Ycontainer.add(digitY2_scrollWheel);
 
-    digitY3_scrollWheel.setPosition(189, -15, 63, 77);
+    digitY3_scrollWheel.setPosition(199, -15, 63, 77);
     digitY3_scrollWheel.setHorizontal(false);
     digitY3_scrollWheel.setCircular(true);
     digitY3_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -302,7 +310,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitY3_scrollWheel.animateToItem(9, 0);
     Ycontainer.add(digitY3_scrollWheel);
 
-    digitY4_scrollWheel.setPosition(126, -15, 63, 77);
+    digitY4_scrollWheel.setPosition(145, -15, 63, 77);
     digitY4_scrollWheel.setHorizontal(false);
     digitY4_scrollWheel.setCircular(true);
     digitY4_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -316,7 +324,7 @@ Screen1ViewBase::Screen1ViewBase() :
     digitY4_scrollWheel.animateToItem(9, 0);
     Ycontainer.add(digitY4_scrollWheel);
 
-    digitY5_scrollWheel.setPosition(63, -15, 63, 77);
+    digitY5_scrollWheel.setPosition(92, -15, 63, 77);
     digitY5_scrollWheel.setHorizontal(false);
     digitY5_scrollWheel.setCircular(true);
     digitY5_scrollWheel.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -338,15 +346,7 @@ Screen1ViewBase::Screen1ViewBase() :
 
     add(Ycontainer);
 
-    plus_buttonWithLabel.setXY(229, 219);
-    plus_buttonWithLabel.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUND_MICRO_FILL_ACTION_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUND_MICRO_FILL_ACTIVE_ID));
-    plus_buttonWithLabel.setLabelText(touchgfx::TypedText(T___SINGLEUSE_K9XY));
-    plus_buttonWithLabel.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    plus_buttonWithLabel.setLabelColorPressed(touchgfx::Color::getColorFromRGB(255, 255, 255));
-    plus_buttonWithLabel.setAction(buttonCallback);
-    add(plus_buttonWithLabel);
-
-    calcul_textArea.setXY(337, 172);
+    calcul_textArea.setXY(323, 165);
     calcul_textArea.setColor(touchgfx::Color::getColorFromRGB(27, 247, 53));
     calcul_textArea.setLinespacing(0);
     calcul_textArea.setTypedText(touchgfx::TypedText(T___SINGLEUSE_MP1R));

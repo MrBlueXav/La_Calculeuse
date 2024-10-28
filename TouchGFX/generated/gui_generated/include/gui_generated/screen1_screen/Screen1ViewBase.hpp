@@ -153,6 +153,7 @@ protected:
     touchgfx::ButtonWithLabel div_buttonWithLabel;
     touchgfx::ButtonWithLabel mult_buttonWithLabel;
     touchgfx::ButtonWithLabel minus_buttonWithLabel;
+    touchgfx::ButtonWithLabel plus_buttonWithLabel;
     touchgfx::Container Xcontainer;
     touchgfx::BoxWithBorder boxWithBorder1;
     touchgfx::ButtonWithLabel RAZX_buttonWithLabel;
@@ -189,7 +190,6 @@ protected:
     touchgfx::ScrollWheel digitY5_scrollWheel;
     touchgfx::DrawableListItems<digitY5_CustomContainer, 2> digitY5_scrollWheelListItems;
     touchgfx::TextArea y_textArea;
-    touchgfx::ButtonWithLabel plus_buttonWithLabel;
     touchgfx::TextArea calcul_textArea;
     touchgfx::TextArea titre_textArea;
     touchgfx::TextAreaWithOneWildcard debugX_textArea;

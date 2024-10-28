@@ -79,7 +79,7 @@
         <Translation Language="GB">La Calculeuse</Translation>
       </Text>
       <Text Id="__SingleUse_MP1R" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">x ● y  ➜ x</Translation>
+        <Translation Language="GB">x ... y  ➜ x</Translation>
       </Text>
       <Text Id="__SingleUse_3H2E" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">y</Translation>
@@ -127,7 +127,7 @@
         <Translation Language="GB">&lt;val&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_YSXJ" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">/</Translation>
+        <Translation Language="GB">÷</Translation>
       </Text>
       <Text Id="__SingleUse_XIM0" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">x</Translation>

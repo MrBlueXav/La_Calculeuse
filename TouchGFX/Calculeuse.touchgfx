@@ -171,6 +171,23 @@
             "TextRotation": "0"
           },
           {
+            "Type": "ButtonWithLabel",
+            "Name": "plus_buttonWithLabel",
+            "X": 229,
+            "Y": 219,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_action.png",
+            "TextId": "__SingleUse_K9XY",
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
             "Type": "Container",
             "Name": "Xcontainer",
             "X": 27,
@@ -201,9 +218,9 @@
                 "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_action.png",
                 "TextId": "__SingleUse_4JH1",
                 "ReleasedColor": {
-                  "Red": 34,
-                  "Green": 212,
-                  "Blue": 46
+                  "Red": 18,
+                  "Green": 163,
+                  "Blue": 28
                 },
                 "PressedColor": {
                   "Red": 250
@@ -231,7 +248,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitX1_scrollWheel",
-                "X": 315,
+                "X": 327,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -248,7 +265,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitX2_scrollWheel",
-                "X": 252,
+                "X": 272,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -265,7 +282,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitX3_scrollWheel",
-                "X": 189,
+                "X": 199,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -282,7 +299,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitX4_scrollWheel",
-                "X": 126,
+                "X": 145,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -299,7 +316,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitX5_scrollWheel",
-                "X": 63,
+                "X": 92,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -419,9 +436,9 @@
                 "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_action.png",
                 "TextId": "__SingleUse_08F1",
                 "ReleasedColor": {
-                  "Red": 34,
-                  "Green": 212,
-                  "Blue": 46
+                  "Red": 18,
+                  "Green": 163,
+                  "Blue": 28
                 },
                 "PressedColor": {
                   "Red": 250
@@ -449,7 +466,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitY1_scrollWheel",
-                "X": 315,
+                "X": 327,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -466,7 +483,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitY2_scrollWheel",
-                "X": 252,
+                "X": 272,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -483,7 +500,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitY3_scrollWheel",
-                "X": 189,
+                "X": 199,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -500,7 +517,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitY4_scrollWheel",
-                "X": 126,
+                "X": 145,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -517,7 +534,7 @@
               {
                 "Type": "ScrollWheel",
                 "Name": "digitY5_scrollWheel",
-                "X": 63,
+                "X": 92,
                 "Y": -15,
                 "Width": 63,
                 "Height": 77,
@@ -545,28 +562,11 @@
             ]
           },
           {
-            "Type": "ButtonWithLabel",
-            "Name": "plus_buttonWithLabel",
-            "X": 229,
-            "Y": 219,
-            "Width": 36,
-            "Height": 36,
-            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_active.png",
-            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_action.png",
-            "TextId": "__SingleUse_K9XY",
-            "PressedColor": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "TextRotation": "0"
-          },
-          {
             "Type": "TextArea",
             "Name": "calcul_textArea",
-            "X": 337,
-            "Y": 172,
-            "Width": 131,
+            "X": 323,
+            "Y": 165,
+            "Width": 137,
             "Height": 36,
             "TextId": "__SingleUse_MP1R",
             "TextRotation": "0",
