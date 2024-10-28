@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_I690" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_E9VW" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_8WMY" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Reste =</Translation>
+      </Text>
+      <Text Id="__SingleUse_XFHL" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">OK</Translation>
+      </Text>
+      <Text Id="__SingleUse_QKQT" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">Erreur de division par 0 !</Translation>
+      </Text>
+      <Text Id="__SingleUse_VZ52" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">Erreur de soustraction !</Translation>
+      </Text>
+      <Text Id="__SingleUse_8HN6" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">Erreur de dépassement !</Translation>
+      </Text>
+      <Text Id="__SingleUse_HCBP" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_WMU1" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">Y = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_H512" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_9CPN" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">X = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_IZFH" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_I5FO" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_NZ8Q" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_8WSE" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_8NYU" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_QIS4" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_1JW8" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_FQPB" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_UV7C" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_U0XR" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_RWGO" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_66DD" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_09G2" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">La Calculeuse</Translation>
+      </Text>
+      <Text Id="__SingleUse_MP1R" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">x ● y  ➜ x</Translation>
+      </Text>
+      <Text Id="__SingleUse_3H2E" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">y</Translation>
+      </Text>
+      <Text Id="__SingleUse_UUUL" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">x</Translation>
+      </Text>
+      <Text Id="__SingleUse_08F1" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">RAZ</Translation>
+      </Text>
+      <Text Id="__SingleUse_T3DI" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_2MKQ" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_SNT6" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_X3J6" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZQDK" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_P0N4" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_7PP9" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_ULZD" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_W8FL" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_8FSG" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_VCXV" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_CF1I" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;val&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_YSXJ" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">/</Translation>
+      </Text>
+      <Text Id="__SingleUse_XIM0" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">x</Translation>
+      </Text>
+      <Text Id="__SingleUse_9NWK" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="__SingleUse_K9XY" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">+</Translation>
+      </Text>
+      <Text Id="__SingleUse_4JH1" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">RAZ</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="ARIALUNI.TTF" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_01" Font="BAUHS93.TTF" Size="34" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

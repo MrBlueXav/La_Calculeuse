@@ -1,0 +1,29 @@
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:37:18:virtual void touchgfx::Presenter::activate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:47:18:virtual void touchgfx::Presenter::deactivate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:touchgfx::Presenter::~Presenter()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:22:10:ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:33:15:virtual void ModelListener::displayX(int8_t*, int8_t)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:34:15:virtual void ModelListener::displayR(int32_t)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:35:15:virtual void ModelListener::sendMessage(MessageX)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:36:15:virtual void ModelListener::displayDebugX(int32_t)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:37:15:virtual void ModelListener::displayDebugY(int32_t)	1
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1Presenter.hpp:27:10:Screen1Presenter::~Screen1Presenter()	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:9:6:virtual void Screen1Presenter::activate()	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:13:6:virtual void Screen1Presenter::deactivate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:virtual touchgfx::Presenter::~Presenter()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:22:10:virtual ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1Presenter.hpp:27:10:virtual Screen1Presenter::~Screen1Presenter()	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:66:6:virtual void Screen1Presenter::displayX(int8_t*, int8_t)	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:71:6:virtual void Screen1Presenter::displayR(int32_t)	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:77:6:virtual void Screen1Presenter::sendMessage(MessageX)	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:82:6:virtual void Screen1Presenter::displayDebugX(int32_t)	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:87:6:virtual void Screen1Presenter::displayDebugY(int32_t)	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:4:1:Screen1Presenter::Screen1Presenter(Screen1View&)	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:19:6:void Screen1Presenter::razX_ButtonClicked()	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:24:6:void Screen1Presenter::razY_ButtonClicked()	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:29:6:void Screen1Presenter::add_XY_ButtonClicked()	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:35:6:void Screen1Presenter::sub_XY_ButtonClicked()	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:41:6:void Screen1Presenter::mul_XY_ButtonClicked()	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:47:6:void Screen1Presenter::div_XY_ButtonClicked()	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:53:6:void Screen1Presenter::updateNumberX(int8_t, int8_t)	1
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:59:6:void Screen1Presenter::updateNumberY(int8_t, int8_t)	1

@@ -1,0 +1,7 @@
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/model/Model.cpp:11:6:void Model::tick()	0	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/model/Model.cpp:15:6:void Model::reset_X()	0	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/model/Model.cpp:25:6:void Model::reset_Y()	0	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/model/Model.cpp:5:1:Model::Model()	8	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/model/Model.cpp:34:6:void Model::addXY()	8	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/model/Model.cpp:47:6:void Model::update_NumberX(int8_t, int8_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/model/Model.cpp:60:6:void Model::update_NumberY(int8_t, int8_t)	16	static

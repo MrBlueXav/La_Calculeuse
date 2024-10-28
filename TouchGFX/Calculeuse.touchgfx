@@ -1,0 +1,1106 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_480x272_poly.png"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1_3",
+            "X": 396,
+            "Y": 197,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 217,
+              "Green": 35,
+              "Blue": 35
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 23.4,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1",
+            "X": 207,
+            "Y": 197,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 217,
+              "Green": 35,
+              "Blue": 35
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 23.4,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1_4",
+            "X": 5,
+            "Y": 197,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 217,
+              "Green": 35,
+              "Blue": 35
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 23.4,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1_2",
+            "X": 333,
+            "Y": 197,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 217,
+              "Green": 35,
+              "Blue": 35
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 23.4,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1_1",
+            "X": 270,
+            "Y": 197,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 217,
+              "Green": 35,
+              "Blue": 35
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 23.4,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "ok_buttonWithLabel",
+            "X": 27,
+            "Y": 219,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_action.png",
+            "TextId": "__SingleUse_XFHL",
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "div_buttonWithLabel",
+            "X": 418,
+            "Y": 219,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_action.png",
+            "TextId": "__SingleUse_YSXJ",
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "mult_buttonWithLabel",
+            "X": 355,
+            "Y": 219,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_action.png",
+            "TextId": "__SingleUse_XIM0",
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "minus_buttonWithLabel",
+            "X": 292,
+            "Y": 219,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_action.png",
+            "TextId": "__SingleUse_9NWK",
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Container",
+            "Name": "Xcontainer",
+            "X": 27,
+            "Y": 13,
+            "Width": 448,
+            "Height": 80,
+            "Components": [
+              {
+                "Type": "BoxWithBorder",
+                "Name": "boxWithBorder1",
+                "Width": 441,
+                "Height": 72,
+                "Color": {
+                  "Red": 200,
+                  "Green": 250,
+                  "Blue": 187
+                },
+                "BorderSize": 5
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "RAZX_buttonWithLabel",
+                "X": 12,
+                "Y": 13,
+                "Width": 36,
+                "Height": 36,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_action.png",
+                "TextId": "__SingleUse_4JH1",
+                "ReleasedColor": {
+                  "Red": 34,
+                  "Green": 212,
+                  "Blue": 46
+                },
+                "PressedColor": {
+                  "Red": 250
+                },
+                "TextRotation": "0",
+                "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_action.json"
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitX0_scrollWheel",
+                "X": 378,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitX0_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitX1_scrollWheel",
+                "X": 315,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitX1_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitX2_scrollWheel",
+                "X": 252,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitX2_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitX3_scrollWheel",
+                "X": 189,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitX3_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitX4_scrollWheel",
+                "X": 126,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitX4_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitX5_scrollWheel",
+                "X": 63,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitX5_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "TextArea",
+                "Name": "x_textArea",
+                "X": 56,
+                "Y": 1,
+                "Width": 12,
+                "Height": 24,
+                "TextId": "__SingleUse_UUUL",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "Box",
+                "Name": "messageBackground_box",
+                "X": 74,
+                "Y": 6,
+                "Width": 359,
+                "Height": 59,
+                "Visible": false,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "divError_textArea",
+                "X": 74,
+                "Y": 15,
+                "Width": 353,
+                "Height": 42,
+                "Visible": false,
+                "TextId": "__SingleUse_QKQT",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 245,
+                  "Green": 24,
+                  "Blue": 24
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "subError_textArea",
+                "X": 74,
+                "Y": 15,
+                "Width": 353,
+                "Height": 42,
+                "Visible": false,
+                "TextId": "__SingleUse_VZ52",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 245,
+                  "Green": 24,
+                  "Blue": 24
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "overflowError_textArea",
+                "X": 74,
+                "Y": 15,
+                "Width": 353,
+                "Height": 42,
+                "Visible": false,
+                "TextId": "__SingleUse_8HN6",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 245,
+                  "Green": 24,
+                  "Blue": 24
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "Ycontainer",
+            "X": 27,
+            "Y": 93,
+            "Width": 448,
+            "Height": 80,
+            "Components": [
+              {
+                "Type": "BoxWithBorder",
+                "Name": "boxWithBorder1_1",
+                "Width": 441,
+                "Height": 72,
+                "Color": {
+                  "Red": 250,
+                  "Green": 219,
+                  "Blue": 187
+                },
+                "BorderSize": 5
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "RAZY_buttonWithLabel",
+                "X": 12,
+                "Y": 13,
+                "Width": 36,
+                "Height": 36,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_action.png",
+                "TextId": "__SingleUse_08F1",
+                "ReleasedColor": {
+                  "Red": 34,
+                  "Green": 212,
+                  "Blue": 46
+                },
+                "PressedColor": {
+                  "Red": 250
+                },
+                "TextRotation": "0",
+                "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_action.json"
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitY0_scrollWheel",
+                "X": 378,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitY0_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitY1_scrollWheel",
+                "X": 315,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitY1_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitY2_scrollWheel",
+                "X": 252,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitY2_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitY3_scrollWheel",
+                "X": 189,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitY3_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitY4_scrollWheel",
+                "X": 126,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitY4_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "ScrollWheel",
+                "Name": "digitY5_scrollWheel",
+                "X": 63,
+                "Y": -15,
+                "Width": 63,
+                "Height": 77,
+                "IsCircular": true,
+                "ItemTemplateName": "digitY5_CustomContainer",
+                "NumberofItems": 10,
+                "InitialElement": 9,
+                "Easing": "Back",
+                "EasingOption": "Out",
+                "SwipeAcceleration": 1.0,
+                "DragAcceleration": 1.0,
+                "OverShootPercentage": 75
+              },
+              {
+                "Type": "TextArea",
+                "Name": "y_textArea",
+                "X": 56,
+                "Y": 1,
+                "Width": 12,
+                "Height": 24,
+                "TextId": "__SingleUse_3H2E",
+                "TextRotation": "0",
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "plus_buttonWithLabel",
+            "X": 229,
+            "Y": 219,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_action.png",
+            "TextId": "__SingleUse_K9XY",
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "calcul_textArea",
+            "X": 337,
+            "Y": 172,
+            "Width": 131,
+            "Height": 36,
+            "TextId": "__SingleUse_MP1R",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 27,
+              "Green": 247,
+              "Blue": 53
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "titre_textArea",
+            "X": 27,
+            "Y": 165,
+            "Width": 211,
+            "Height": 35,
+            "TextId": "__SingleUse_09G2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 245,
+              "Green": 191,
+              "Blue": 12
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "debugX_textArea",
+            "X": 11,
+            "Y": 213,
+            "Width": 196,
+            "Height": 24,
+            "Visible": false,
+            "TextId": "__SingleUse_9CPN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 231,
+              "Blue": 13
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_H512",
+              "UseBuffer": true,
+              "BufferSize": 20
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "debugY_textArea",
+            "X": 11,
+            "Y": 243,
+            "Width": 196,
+            "Height": 24,
+            "Visible": false,
+            "TextId": "__SingleUse_WMU1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 231,
+              "Blue": 13
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_HCBP",
+              "UseBuffer": true,
+              "BufferSize": 20
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "Rcontainer",
+            "X": 83,
+            "Y": 208,
+            "Width": 133,
+            "Height": 64,
+            "Visible": false,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "remainVal_textArea",
+                "X": 11,
+                "Y": 29,
+                "Width": 101,
+                "Height": 25,
+                "TextId": "__SingleUse_E9VW",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 168,
+                  "Green": 247,
+                  "Blue": 64
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_I690",
+                  "UseBuffer": true,
+                  "BufferSize": 20
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "remain_textArea",
+                "X": 33,
+                "Y": 5,
+                "Width": 79,
+                "Height": 24,
+                "TextId": "__SingleUse_8WMY",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 168,
+                  "Green": 247,
+                  "Blue": 64
+                },
+                "AutoSize": true
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "RAZ_X_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "RAZX_buttonWithLabel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "raz_X"
+            }
+          },
+          {
+            "InteractionName": "RAZ_Y_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "RAZY_buttonWithLabel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "raz_y"
+            }
+          },
+          {
+            "InteractionName": "ADD_XY_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "plus_buttonWithLabel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "add_XY"
+            }
+          },
+          {
+            "InteractionName": "SUB_XY_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "minus_buttonWithLabel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "sub_XY"
+            }
+          },
+          {
+            "InteractionName": "MUL_XY_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mult_buttonWithLabel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "mul_XY"
+            }
+          },
+          {
+            "InteractionName": "DIV_XY_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "div_buttonWithLabel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "div_XY"
+            }
+          },
+          {
+            "InteractionName": "OK_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ok_buttonWithLabel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ok_function"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "digitY0_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_66DD",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_RWGO",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitY1_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_U0XR",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_UV7C",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitY2_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_FQPB",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_1JW8",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitY3_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_QIS4",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_8NYU",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitY4_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_8WSE",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_NZ8Q",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitY5_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_I5FO",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_IZFH",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitX0_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_CF1I",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_VCXV",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitX1_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_8FSG",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_W8FL",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitX2_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_ULZD",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_7PP9",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitX3_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_P0N4",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_ZQDK",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitX4_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_X3J6",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_SNT6",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "digitX5_CustomContainer",
+        "Width": 63,
+        "Height": 94,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 11,
+            "Y": 22,
+            "Width": 42,
+            "Height": 47,
+            "TextId": "__SingleUse_2MKQ",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_T3DI",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "Calculeuse",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.24.0",
+  "CreatedBy": "4.24.0"
+}

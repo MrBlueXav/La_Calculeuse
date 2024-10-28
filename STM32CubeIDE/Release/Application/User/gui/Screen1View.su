@@ -1,0 +1,26 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:11:6:virtual void Screen1View::tearDownScreen()	0	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:20:6:virtual void Screen1View::digitX0_scrollWheelUpdateItem(digitX0_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:31:6:virtual void Screen1View::digitX1_scrollWheelUpdateItem(digitX1_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:41:6:virtual void Screen1View::digitX2_scrollWheelUpdateItem(digitX2_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:51:6:virtual void Screen1View::digitX3_scrollWheelUpdateItem(digitX3_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:61:6:virtual void Screen1View::digitX4_scrollWheelUpdateItem(digitX4_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:71:6:virtual void Screen1View::digitX5_scrollWheelUpdateItem(digitX5_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:83:6:virtual void Screen1View::digitY0_scrollWheelUpdateItem(digitY0_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:93:6:virtual void Screen1View::digitY1_scrollWheelUpdateItem(digitY1_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:103:6:virtual void Screen1View::digitY2_scrollWheelUpdateItem(digitY2_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:113:6:virtual void Screen1View::digitY3_scrollWheelUpdateItem(digitY3_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:123:6:virtual void Screen1View::digitY4_scrollWheelUpdateItem(digitY4_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:133:6:virtual void Screen1View::digitY5_scrollWheelUpdateItem(digitY5_CustomContainer&, int16_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:173:6:virtual void Screen1View::add_XY()	0	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:10:10:Screen1View::~Screen1View()	8	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:10:10:virtual Screen1View::~Screen1View()	8	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:3:1:Screen1View::Screen1View()	8	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:7:6:virtual void Screen1View::setupScreen()	0	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:146:6:virtual void Screen1View::raz_X()	8	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:161:6:virtual void Screen1View::raz_y()	8	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:187:6:void Screen1View::screen1DisplayX(const int8_t*, int8_t)	16	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:198:6:void Screen1View::screen1DisplayDebugX(int32_t)	8	static
+D:/TouchGFX/Calculeuse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:205:6:void Screen1View::screen1DisplayDebugY(int32_t)	8	static
