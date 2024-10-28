@@ -30,7 +30,7 @@ public:
 		model = m;
 	}
 
-	virtual void displayX(int8_t digits[], int8_t len) {}
+	virtual void displayX(uint8_t digits[], uint8_t len) {}
 	virtual void displayR(int32_t r) {}
 	virtual void sendMessage(MessageX msg) {}
 	virtual void displayDebugX(int32_t x) {}

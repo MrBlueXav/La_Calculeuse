@@ -24,7 +24,7 @@ void Model::tick() {
 void Model::reset_X() {
 
 	numberX = 0;
-	for (int8_t i = 0; i < 6; i++) {
+	for (int8_t i = 0; i < NbrOfDigits; i++) {
 		digitsX[i] = 0;
 	}
 	//modelListener->displayDebugX(numberX);
@@ -33,7 +33,7 @@ void Model::reset_X() {
 void Model::reset_Y() {
 
 	numberY = 0;
-	for (int8_t i = 0; i < 6; i++) {
+	for (int8_t i = 0; i < NbrOfDigits; i++) {
 		digitsY[i] = 0;
 	}
 	//modelListener->displayDebugY(numberY);
@@ -47,12 +47,12 @@ void Model::addXY() {
 		numberX = sum;
 
 		int32_t x = numberX;
-		for (int8_t i = 0; i < 6; i++) {
+		for (int8_t i = 0; i < NbrOfDigits; i++) {
 			digitsX[i] = x % 10;
 			x = x / 10;
 		}
 
-		modelListener->displayX(digitsX, 6);
+		modelListener->displayX(digitsX, NbrOfDigits);
 		//modelListener->displayDebugX(numberX);
 	} else {
 		modelListener->sendMessage(OVERFLOW_ERROR);
@@ -66,12 +66,12 @@ void Model::subXY() {
 		numberX = diff;
 
 		int32_t x = numberX;
-		for (int8_t i = 0; i < 6; i++) {
+		for (int8_t i = 0; i < NbrOfDigits; i++) {
 			digitsX[i] = x % 10;
 			x = x / 10;
 		}
 
-		modelListener->displayX(digitsX, 6);
+		modelListener->displayX(digitsX, NbrOfDigits);
 	} else {
 		modelListener->sendMessage(SUB_ERROR);
 	}
@@ -81,16 +81,16 @@ void Model::subXY() {
 void Model::mulXY() {
 
 	int64_t mult = (int64_t) numberX * (int64_t) numberY;
-	if (mult < 1000000) {
+	if (mult <= MaxNumber) { // No overflow
 		numberX = mult;
 
 		int32_t x = mult;
-		for (int8_t i = 0; i < 6; i++) {
+		for (int8_t i = 0; i < NbrOfDigits; i++) {
 			digitsX[i] = x % 10;
 			x = x / 10;
 		}
 
-		modelListener->displayX(digitsX, 6);
+		modelListener->displayX(digitsX, NbrOfDigits);
 	} else {
 		modelListener->sendMessage(OVERFLOW_ERROR);
 	}
@@ -105,12 +105,12 @@ void Model::divXY() {
 		numberX = quot;
 
 		int32_t x = quot;
-		for (int8_t i = 0; i < 6; i++) {
+		for (int8_t i = 0; i < NbrOfDigits; i++) {
 			digitsX[i] = x % 10;
 			x = x / 10;
 		}
 
-		modelListener->displayX(digitsX, 6); /* Display quotient */
+		modelListener->displayX(digitsX, NbrOfDigits); /* Display quotient */
 		modelListener->displayR(rem); /* Display remainder */
 
 	} else {
@@ -119,29 +119,33 @@ void Model::divXY() {
 
 }
 
-void Model::update_NumberX(int8_t position, int8_t value) {
+void Model::update_NumberX(uint8_t position, uint8_t value) {
 
-	digitsX[position] = value;
-	numberX = 0;
-	int32_t expo = 1;
-	for (int8_t i = 0; i < 6; i++) {
-		numberX = numberX + digitsX[i] * expo;
-		expo *= 10;
+	if (position < NbrOfDigits && value < 10) {
+		digitsX[position] = value;
+		numberX = 0;
+		int32_t expo = 1;
+		for (int8_t i = 0; i < NbrOfDigits; i++) {
+			numberX = numberX + digitsX[i] * expo;
+			expo *= 10;
+		}
+		//modelListener->displayDebugX(numberX);
 	}
-	//modelListener->displayDebugX(numberX);
 
 }
 
-void Model::update_NumberY(int8_t position, int8_t value) {
+void Model::update_NumberY(uint8_t position, uint8_t value) {
 
-	digitsY[position] = value;
-	numberY = 0;
-	int32_t expo = 1;
-	for (int8_t i = 0; i < 6; i++) {
-		numberY = numberY + digitsY[i] * expo;
-		expo *= 10;
+	if (position < NbrOfDigits && value < 10) {
+		digitsY[position] = value;
+		numberY = 0;
+		int32_t expo = 1;
+		for (int8_t i = 0; i < NbrOfDigits; i++) {
+			numberY = numberY + digitsY[i] * expo;
+			expo *= 10;
+		}
+		//modelListener->displayDebugY(numberY);
 	}
-	//modelListener->displayDebugY(numberY);
 }
 
 //********************************************************************************************************************

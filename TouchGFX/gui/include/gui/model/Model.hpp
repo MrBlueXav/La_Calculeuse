@@ -53,8 +53,8 @@ public:
 	void subXY();
 	void mulXY();
 	void divXY();
-	void update_NumberX(int8_t position, int8_t value);
-	void update_NumberY(int8_t position, int8_t value);
+	void update_NumberX(uint8_t position, uint8_t value);
+	void update_NumberY(uint8_t position, uint8_t value);
 	/*-------------------------------------------*/
 
 protected:
@@ -68,8 +68,8 @@ protected:
 
 	int32_t numberX;
 	int32_t numberY;
-	int8_t digitsX[6];
-	int8_t digitsY[6];
+	uint8_t digitsX[NbrOfDigits];
+	uint8_t digitsY[NbrOfDigits];
 
 	/*-------------------------------------------*/
 };

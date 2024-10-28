@@ -62,20 +62,20 @@ void Screen1Presenter::div_XY_ButtonClicked() {
 
 }
 
-void Screen1Presenter::updateNumberX(int8_t position, int8_t value) {
+void Screen1Presenter::updateNumberX(uint8_t position, uint8_t value) {
 
 	model->update_NumberX(position, value);
 
 }
 
-void Screen1Presenter::updateNumberY(int8_t position, int8_t value) {
+void Screen1Presenter::updateNumberY(uint8_t position, uint8_t value) {
 
 	model->update_NumberY(position, value);
 
 }
 //-------------------------------------------------------------
 
-void Screen1Presenter::displayX(int8_t digits[], int8_t len) {
+void Screen1Presenter::displayX(uint8_t digits[], uint8_t len) {
 
 	view.screen1DisplayX(digits, len);
 }

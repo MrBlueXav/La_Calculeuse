@@ -45,10 +45,10 @@ public:
 	void sub_XY_ButtonClicked();
 	void mul_XY_ButtonClicked();
 	void div_XY_ButtonClicked();
-	void updateNumberX(int8_t position, int8_t value);
-	void updateNumberY(int8_t position, int8_t value);
+	void updateNumberX(uint8_t position, uint8_t value);
+	void updateNumberY(uint8_t position, uint8_t value);
 
-	virtual void displayX(int8_t digits[], int8_t len);
+	virtual void displayX(uint8_t digits[], uint8_t len);
 	virtual void displayR(int32_t r);
 	virtual void sendMessage(MessageX msg);
 	virtual void displayDebugX(int32_t x);

@@ -227,7 +227,7 @@ void Screen1View::ok_function() {
 
 }
 
-void Screen1View::screen1DisplayX(const int8_t digits[], const int8_t len) {
+void Screen1View::screen1DisplayX(const uint8_t digits[], const uint8_t len) {
 
 	digitX0_scrollWheel.animateToItem(9 - digits[0]);
 	digitX1_scrollWheel.animateToItem(9 - digits[1]);

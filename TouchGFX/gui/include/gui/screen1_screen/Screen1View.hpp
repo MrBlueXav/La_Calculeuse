@@ -61,7 +61,7 @@ public:
 	virtual void div_XY();
 	virtual void ok_function();
 
-	void screen1DisplayX(const int8_t digits[], const int8_t len);
+	void screen1DisplayX(const uint8_t digits[], const uint8_t len);
 	void screen1DisplayR(int32_t r);
 	void screen1SendMessage(MessageX msg);
 	void screen1DisplayDebugX(int32_t x);
