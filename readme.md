@@ -16,7 +16,9 @@ https://youtu.be/PU9Ylbjo0pk?si=GYXZqVtij_sRz8eB
 -------------------------------------------------------
 
 
-Framework : TouchGFX 4.24.0  
+**Framework** : TouchGFX 4.24.0  for graphic design + compilation + board flashing  
+**IDE** : STM32CubeIDE 1.16.1 for editing code (compiled target from the IDE doesn't work on the board... !!!)  
+
 The default IDE is set to STM32CubeIDE, to change IDE open the STM32F746G_DISCO.ioc with STM32CubeMX and select from the supported IDEs (EWARM from version 8.50.9, MDK-ARM, and STM32CubeIDE). Supports flashing of the STM32F746G_DISCO board directly from TouchGFX Designer using GCC and STM32CubeProgrammer.Flashing the board requires STM32CubeProgrammer which can be downloaded from the ST webpage. 
 
 This TBS is configured for 272 x 480 pixels 16bpp screen resolution.  

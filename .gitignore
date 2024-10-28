@@ -1,5 +1,6 @@
-/Debug
-/Release
+/Debug/
+/Release/
+*.launch
 
 # Prerequisites
 *.d
