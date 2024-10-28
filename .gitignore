@@ -6,6 +6,8 @@
 *.lo
 *.o
 *.obj
+*.su
+*.ko
 
 # Precompiled Headers
 *.gch
@@ -21,12 +23,15 @@
 *.smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Linker output
+*.ilk
+*.map
+*.list
+*.exp
