@@ -1,3 +1,15 @@
+/**
+  ******************************************************************************
+  * @file           : Screen1View.cpp
+  * @brief          : View for screen 1
+  *
+  * by Xavier Halgand
+  * 10/2024
+  *
+  ******************************************************************************
+  */
+
+
 #include <gui/screen1_screen/Screen1View.hpp>
 
 Screen1View::Screen1View() {
